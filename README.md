@@ -1,16 +1,33 @@
-# magic_8_ball
+# Magic 8 Ball
 
-A new Flutter project.
+A simple Flutter app that gives random Magic 8 Ball style answers with a tap.
+
+## Features
+
+- Clean single-screen Flutter UI
+- Random answer generation on button press
+- Works across Flutter desktop, web, Android, and iOS targets
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+1. Install Flutter and make sure `flutter` is available on your PATH.
+2. Get the dependencies:
 
-A few resources to get you started if this is your first Flutter project:
+	```bash
+	flutter pub get
+	```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+3. Run the app:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+	```bash
+	flutter run
+	```
+
+## How It Works
+
+Tap the button to shake the ball and reveal a random response such as Yes, No, or Ask again later.
+
+## Notes
+
+- The current version uses a built-in Flutter UI, so it does not require image assets.
+- The app entrypoint is in [lib/main.dart](lib/main.dart).
